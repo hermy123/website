@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 0px 6px 9px #00000065;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.container input {
+    height: 50px;
+    width: 100%;
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid black !important;
+    outline: none !important;
+    margin: 10px 0px;
+}
+
+.add_btn {
+    height: 40px;
+    width: 120px;
+    background: rgb(90, 1, 1);
+    border: none !important;
+    outline: none !important;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.savings_btn {
+    height: 40px;
+    width: 120px;
+    background: rgb(1, 66, 34);
+    border: none !important;
+    outline: none !important;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.reset {
+    height: 40px;
+    width: 90px;
+    background: red;
+    border: none !important;
+    outline: none !important;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+}
+
+.display {
+    background: cyan;
+    padding: 20px 10px;
+    border-radius: 4px;
+}
+
+.display h4 {
+    padding: 10px 0px;
+}
+
+.disable_btn {
+    background: gray !important;
+}
